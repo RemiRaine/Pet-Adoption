@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
   <div class="top-section-wrapper">
@@ -20,7 +22,7 @@
         <a href="#view-pets" class="our-btn utility-mr">View Pets</a>
         <a href="#" class="our-btn our-btn--outline">Manage Pets</a>
         </div>
-        <dir class="intro-features">
+        <div class="intro-features">
         <div class="intro-feature">
           <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_15_6)">
@@ -90,26 +92,28 @@
     <div class="pet-filter">
       <p>Show me: <button>All Pets</button> <button>Only Dogs</button> <button>Only Cats</button></p>
     </div>
-    <div class="list-of-pets">
+    
+      <div class="list-of-pets"></div>
 
-        <template id="pet-card-template">
-          <div class="pet-card">
-            <div class="pet-card-text">
-                <h3></h3>
-                <p class="pet-discription"></p>
-                <p class="pet-age"></p>
-            </div>
-            <div class="pet-card-photo">
-              <img src="" alt="">
-            </div>
+      <template id="pet-card-template">
+        <div class="pet-card">
+          <div class="pet-card-text">
+            <h3></h3>
+            <p class="pet-description"></p>
+            <p class="pet-age"></p>
           </div>
-        </template>      
+          <div class="pet-card-photo">
+            <img src="" alt="">
+          </div>
+        </div>
+      </template>      
 
     </div>
   </div>
-  
-</div>
-  <footer class="site-footer"><p>&copy; 2023 Fake Adoption Center. All rights reserved.</p></footer>
+  <footer class="site-footer">
+    <p>&copy; 2023 Fake Adoption Center. All rights reserved.</p>
+  </footer>
   <script src="main.js"></script>
 </body>
+
 </html>
