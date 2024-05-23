@@ -175,6 +175,10 @@ body {
   cursor: pointer;
 }
 
+.pet-filter .active {
+  color:#475AFF;
+}
+
 .pet-filter button:hover {
   color: #7d7d7d;
 }
